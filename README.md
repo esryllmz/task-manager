@@ -1,9 +1,10 @@
 
 Task Manager, günlük görevlerinizi kolayca organize etmenizi sağlayan basit ama genişletilebilir bir görev yönetim uygulamasıdır. Kullanıcı dostu arayüzü sayesinde görev ekleme, düzenleme, silme ve tamamlama gibi temel işlemleri hızlıca yapabilirsiniz.
 
- [Ekran Kaydı 2025-08-27 031055.zip](https://github.com/user-attachments/files/21998610/Ekran.Kaydi.2025-08-27.031055.zip)
+[Ekran Kaydı.zip](https://github.com/user-attachments/files/21998645/Ekran.Kaydi.zip)
 
 🚀 Özellikler
+
 
 * ✅ Görev ekleme, düzenleme ve silme
 * 📅 Görevlerin durumunu güncelleme (tamamlandı / tamamlanmadı)
