@@ -2,14 +2,12 @@ import express from "express";
 import cors from "cors";
 import sql from "mssql";
 
-// ——— en sade config (gerekirse burayı .env'e taşırsın)
 const DB = {
-  server: "localhost",   // SSMS'de "localhost,1433" yazıyorsun ama burada AYRI!
-  port: 1433,            // Docker'da -p 1433:1433 ise 1433; farklıysa host portu
+  server: "localhost",   
+  port: 1433,            
   user: "sa",
   password: "admin123456789",
-  database: "taskdb"     // kendi DB adın (SmartStore_db vs.)
-};
+  database: "taskdb"     
 
 const sqlConfig = {
   user: DB.user,
@@ -30,7 +28,6 @@ async function getPool() {
   return pool;
 }
 
-// tabloyu garanti et (ilk çalıştırmada hata olmasın)
 async function ensureTable() {
   const p = await getPool();
   await p.request().query(`
